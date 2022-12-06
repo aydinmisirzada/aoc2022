@@ -40,7 +40,7 @@ def star1(input_file: str) -> str:
     """Should return CMZ for sample data.
 
     >>> star1('day5_test_input.txt')
-    CMZ
+    'CMZ'
     """
 
     stacks = {}  # type: Dict[int, str]
@@ -68,8 +68,8 @@ def star1(input_file: str) -> str:
 def star2(input_file: str) -> str:
     """Should return MCD for sample data.
 
-    >>> star1('day5_test_input.txt')
-    MCD
+    >>> star2('day5_test_input.txt')
+    'MCD'
     """
 
     stacks = {}  # type: Dict[int, str]
